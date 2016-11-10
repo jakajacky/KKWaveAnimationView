@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33C61021DD3071100B9D973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61011DD3071100B9D973 /* main.m */; };
+		C33C61051DD3071200B9D973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61041DD3071200B9D973 /* AppDelegate.m */; };
+		C33C61081DD3071200B9D973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61071DD3071200B9D973 /* ViewController.m */; };
+		C33C610B1DD3071200B9D973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33C61091DD3071200B9D973 /* Main.storyboard */; };
+		C33C610D1DD3071200B9D973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33C610C1DD3071200B9D973 /* Assets.xcassets */; };
+		C33C61101DD3071200B9D973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33C610E1DD3071200B9D973 /* LaunchScreen.storyboard */; };
+		C33C611B1DD3071200B9D973 /* CircleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C611A1DD3071200B9D973 /* CircleButtonTests.m */; };
+		C33C61261DD3071200B9D973 /* CircleButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61251DD3071200B9D973 /* CircleButtonUITests.m */; };
+		C33C61351DD3149500B9D973 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61341DD3149500B9D973 /* UIView+Extension.m */; };
+		C33C61391DD32C8800B9D973 /* KKWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C61381DD32C8800B9D973 /* KKWaveAnimationView.m */; };
+		C3E51CD71DD4130F0076254E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E51CD61DD4130F0076254E /* bg.png */; };
+		C3E51CD91DD4185C0076254E /* beau.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E51CD81DD4185C0076254E /* beau.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33C61171DD3071200B9D973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33C60F51DD3071100B9D973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33C60FC1DD3071100B9D973;
+			remoteInfo = CircleButton;
+		};
+		C33C61221DD3071200B9D973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33C60F51DD3071100B9D973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33C60FC1DD3071100B9D973;
+			remoteInfo = CircleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33C60FD1DD3071100B9D973 /* CircleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33C61011DD3071100B9D973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33C61031DD3071100B9D973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C33C61041DD3071200B9D973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33C61061DD3071200B9D973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C33C61071DD3071200B9D973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C33C610A1DD3071200B9D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33C610C1DD3071200B9D973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33C610F1DD3071200B9D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33C61111DD3071200B9D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33C61161DD3071200B9D973 /* CircleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33C611A1DD3071200B9D973 /* CircleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButtonTests.m; sourceTree = "<group>"; };
+		C33C611C1DD3071200B9D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33C61211DD3071200B9D973 /* CircleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33C61251DD3071200B9D973 /* CircleButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButtonUITests.m; sourceTree = "<group>"; };
+		C33C61271DD3071200B9D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33C61331DD3149500B9D973 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C33C61341DD3149500B9D973 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C33C61371DD32C8800B9D973 /* KKWaveAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKWaveAnimationView.h; sourceTree = "<group>"; };
+		C33C61381DD32C8800B9D973 /* KKWaveAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKWaveAnimationView.m; sourceTree = "<group>"; };
+		C3E51CD61DD4130F0076254E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C3E51CD81DD4185C0076254E /* beau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beau.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33C60FA1DD3071100B9D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C61131DD3071200B9D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C611E1DD3071200B9D973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33C60F41DD3071100B9D973 = {
+			isa = PBXGroup;
+			children = (
+				C33C60FF1DD3071100B9D973 /* CircleButton */,
+				C33C61191DD3071200B9D973 /* CircleButtonTests */,
+				C33C61241DD3071200B9D973 /* CircleButtonUITests */,
+				C33C60FE1DD3071100B9D973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33C60FE1DD3071100B9D973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33C60FD1DD3071100B9D973 /* CircleButton.app */,
+				C33C61161DD3071200B9D973 /* CircleButtonTests.xctest */,
+				C33C61211DD3071200B9D973 /* CircleButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33C60FF1DD3071100B9D973 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				C3E51CD81DD4185C0076254E /* beau.png */,
+				C3E51CD61DD4130F0076254E /* bg.png */,
+				C33C61031DD3071100B9D973 /* AppDelegate.h */,
+				C33C61041DD3071200B9D973 /* AppDelegate.m */,
+				C33C61061DD3071200B9D973 /* ViewController.h */,
+				C33C61071DD3071200B9D973 /* ViewController.m */,
+				C33C61331DD3149500B9D973 /* UIView+Extension.h */,
+				C33C61341DD3149500B9D973 /* UIView+Extension.m */,
+				C33C61371DD32C8800B9D973 /* KKWaveAnimationView.h */,
+				C33C61381DD32C8800B9D973 /* KKWaveAnimationView.m */,
+				C33C61091DD3071200B9D973 /* Main.storyboard */,
+				C33C610C1DD3071200B9D973 /* Assets.xcassets */,
+				C33C610E1DD3071200B9D973 /* LaunchScreen.storyboard */,
+				C33C61111DD3071200B9D973 /* Info.plist */,
+				C33C61001DD3071100B9D973 /* Supporting Files */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		C33C61001DD3071100B9D973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33C61011DD3071100B9D973 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33C61191DD3071200B9D973 /* CircleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33C611A1DD3071200B9D973 /* CircleButtonTests.m */,
+				C33C611C1DD3071200B9D973 /* Info.plist */,
+			);
+			path = CircleButtonTests;
+			sourceTree = "<group>";
+		};
+		C33C61241DD3071200B9D973 /* CircleButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C33C61251DD3071200B9D973 /* CircleButtonUITests.m */,
+				C33C61271DD3071200B9D973 /* Info.plist */,
+			);
+			path = CircleButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33C60FC1DD3071100B9D973 /* CircleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33C612A1DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButton" */;
+			buildPhases = (
+				C33C60F91DD3071100B9D973 /* Sources */,
+				C33C60FA1DD3071100B9D973 /* Frameworks */,
+				C33C60FB1DD3071100B9D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleButton;
+			productName = CircleButton;
+			productReference = C33C60FD1DD3071100B9D973 /* CircleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33C61151DD3071200B9D973 /* CircleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33C612D1DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButtonTests" */;
+			buildPhases = (
+				C33C61121DD3071200B9D973 /* Sources */,
+				C33C61131DD3071200B9D973 /* Frameworks */,
+				C33C61141DD3071200B9D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33C61181DD3071200B9D973 /* PBXTargetDependency */,
+			);
+			name = CircleButtonTests;
+			productName = CircleButtonTests;
+			productReference = C33C61161DD3071200B9D973 /* CircleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C33C61201DD3071200B9D973 /* CircleButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33C61301DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButtonUITests" */;
+			buildPhases = (
+				C33C611D1DD3071200B9D973 /* Sources */,
+				C33C611E1DD3071200B9D973 /* Frameworks */,
+				C33C611F1DD3071200B9D973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33C61231DD3071200B9D973 /* PBXTargetDependency */,
+			);
+			name = CircleButtonUITests;
+			productName = CircleButtonUITests;
+			productReference = C33C61211DD3071200B9D973 /* CircleButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33C60F51DD3071100B9D973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Li Kelin";
+				TargetAttributes = {
+					C33C60FC1DD3071100B9D973 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C33C61151DD3071200B9D973 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C33C60FC1DD3071100B9D973;
+					};
+					C33C61201DD3071200B9D973 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C33C60FC1DD3071100B9D973;
+					};
+				};
+			};
+			buildConfigurationList = C33C60F81DD3071100B9D973 /* Build configuration list for PBXProject "CircleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33C60F41DD3071100B9D973;
+			productRefGroup = C33C60FE1DD3071100B9D973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33C60FC1DD3071100B9D973 /* CircleButton */,
+				C33C61151DD3071200B9D973 /* CircleButtonTests */,
+				C33C61201DD3071200B9D973 /* CircleButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33C60FB1DD3071100B9D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C61101DD3071200B9D973 /* LaunchScreen.storyboard in Resources */,
+				C3E51CD91DD4185C0076254E /* beau.png in Resources */,
+				C33C610D1DD3071200B9D973 /* Assets.xcassets in Resources */,
+				C3E51CD71DD4130F0076254E /* bg.png in Resources */,
+				C33C610B1DD3071200B9D973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C61141DD3071200B9D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C611F1DD3071200B9D973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33C60F91DD3071100B9D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C61081DD3071200B9D973 /* ViewController.m in Sources */,
+				C33C61051DD3071200B9D973 /* AppDelegate.m in Sources */,
+				C33C61351DD3149500B9D973 /* UIView+Extension.m in Sources */,
+				C33C61391DD32C8800B9D973 /* KKWaveAnimationView.m in Sources */,
+				C33C61021DD3071100B9D973 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C61121DD3071200B9D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C611B1DD3071200B9D973 /* CircleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C611D1DD3071200B9D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C61261DD3071200B9D973 /* CircleButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33C61181DD3071200B9D973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33C60FC1DD3071100B9D973 /* CircleButton */;
+			targetProxy = C33C61171DD3071200B9D973 /* PBXContainerItemProxy */;
+		};
+		C33C61231DD3071200B9D973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33C60FC1DD3071100B9D973 /* CircleButton */;
+			targetProxy = C33C61221DD3071200B9D973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33C61091DD3071200B9D973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33C610A1DD3071200B9D973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33C610E1DD3071200B9D973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33C610F1DD3071200B9D973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33C61281DD3071200B9D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33C61291DD3071200B9D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33C612B1DD3071200B9D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33C612C1DD3071200B9D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C33C612E1DD3071200B9D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleButton.app/CircleButton";
+			};
+			name = Debug;
+		};
+		C33C612F1DD3071200B9D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleButton.app/CircleButton";
+			};
+			name = Release;
+		};
+		C33C61311DD3071200B9D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C33C61321DD3071200B9D973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideabinder.CircleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33C60F81DD3071100B9D973 /* Build configuration list for PBXProject "CircleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C61281DD3071200B9D973 /* Debug */,
+				C33C61291DD3071200B9D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33C612A1DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C612B1DD3071200B9D973 /* Debug */,
+				C33C612C1DD3071200B9D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33C612D1DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C612E1DD3071200B9D973 /* Debug */,
+				C33C612F1DD3071200B9D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33C61301DD3071200B9D973 /* Build configuration list for PBXNativeTarget "CircleButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C61311DD3071200B9D973 /* Debug */,
+				C33C61321DD3071200B9D973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33C60F51DD3071100B9D973 /* Project object */;
+}
